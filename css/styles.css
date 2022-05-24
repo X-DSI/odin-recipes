@@ -1,6 +1,19 @@
-h1{
-    color: blue;
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-h3{
-    color: green;
+
+.image-alinment {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+h1 {
+  color: blue;
+}
+h3 {
+  color: green;
 }
